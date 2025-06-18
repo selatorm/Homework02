@@ -1,23 +1,23 @@
 import { createRouter, createWebHistory } from 'vue-router';
-// import Homepage from "@/pages/Librarypage.vue";
-import Bookpage from "@/pages/Bookpage.vue";
+import Librarypage from "@/pages/Librarypage.vue";
+import Bookpage from '@/pages/Bookpage.vue';
 
 const routes = [
     {
-        path : "/",
-        name : "Home",
+        path: "/",
+        name: "Home",
         component: Librarypage
     },
     {
-        path : "/person",
-        name : "Person",
+        path: "/person",
+        name: "Person",
         component: Bookpage
-    },
-]
-import Librarypage from "@/pages/Librarypage.vue";
+    }
+];
+
 const router = createRouter({
-    'history': createWebHistory(),
+    history: createWebHistory(),
     routes
-})
+});
 
 export default router;

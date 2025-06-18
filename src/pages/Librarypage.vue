@@ -1,13 +1,10 @@
 <template>
-    <div>
-        <Userlist />
-    </div>
+  <section class="p-6">
+    <h1 class="text-3xl font-bold mb-4">Library Page</h1>
+    <StudentList />
+  </section>
 </template>
 
 <script setup>
-import Userlist from "@/components/StudentList.vue";
+import StudentList from "@/components/StudentList.vue";
 </script>
-
-<style lang="scss" scoped>
-
-</style>

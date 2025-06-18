@@ -1,11 +1,11 @@
 <template>
-  <header class="shadow-md">
-    <Navigation />
-  </header>
-  <router-view></router-view>
+  <div>
+    <Navigation/>
+    <router-view/>
+  </div>
 </template>
+
 <script setup>
-// components import
-import Navigation from "@/components/Navigation.vue";
+import Navigation from './components/Navigation.vue';
 
 </script>
